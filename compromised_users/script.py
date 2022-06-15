@@ -1,3 +1,7 @@
+# program will print a message for a hacker to hacked into our passwords and compromised them
+# we already secured the passwords and user names
+# the files in the folder (compromised_users) are necessary for the program to work correclty
+
 import csv
 
 compromised_users = []
