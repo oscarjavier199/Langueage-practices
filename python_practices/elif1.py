@@ -1,3 +1,4 @@
+#gives grade according to score
 score = 40
  
 if score >= 90:

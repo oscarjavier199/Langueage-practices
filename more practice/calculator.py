@@ -15,8 +15,23 @@
 
 
 #program takes 2 floats and divides them, then rounds them to an int
-x = float(input("What's X?\n"))
-y = float(input("What's Y?\n"))
-z = x / y
-print(f"Answer: {z:.2f}") #we want to print only 2 digits
+#x = float(input("What's X?\n"))
+#y = float(input("What's Y?\n"))
+#z = x / y
+#print(f"Answer: {z:.2f}") #format indicates that we only want to print only 2 digits
 
+
+#program asks user for x and y int values and gives the result of the division
+#x = int(input("what's X?\n"))
+#y = int(input("what's Y?\n"))
+#print("Answer:", x / y)
+
+#program returnes the squared value of a given number
+def main(): #defining a function
+    x = int(input("What's X?\n")) #asks user for input
+    print("X squared is", square(x)) #gives user the answer
+    
+def square(n): #defines square function
+    return n * n #returns the squared value
+
+main() #calling main function to know the square value of a given number
