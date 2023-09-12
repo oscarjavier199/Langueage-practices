@@ -8,11 +8,9 @@ def main():
     else:
         print("Odd Number")
 
-#reusable funtion to determine if input given is true or false
-def is_even(n):
+#reusable funtion
+def is_even(n): #defining function, (n) represents number
     if n % 2 == 0:
-        return True
-    else:
-        return False
+        return n % 2 == 0 #we can also write it as (return True if n % 2 == 0 else False)
 
-main()
+main() #calling main function
