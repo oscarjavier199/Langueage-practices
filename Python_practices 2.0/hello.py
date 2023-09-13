@@ -7,4 +7,3 @@ def hello(): #function defined
     
     
 hello() #function called
-     
