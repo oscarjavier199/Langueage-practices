@@ -41,4 +41,5 @@ def main(): #defining a function
 def square(n): #defines square function
     return n * n #returns the squared value
 
-main() #calling main function to know the square value of a given number
+if __name__ == "__main__":
+    main()
