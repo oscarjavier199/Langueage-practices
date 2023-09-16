@@ -1,24 +1,14 @@
-user_coins = ["50", "25", "10", "5", "1"] #range 50 to 1
-print("amount due: 50")
 
+#variable
+user_coins = 50
 
-for coin in user_coins:
-    insert_coin = int(input("insert coin: "))
- #   new_prices = [insert_coin-5 for coin in user_coins]
-    amound_due = ("amount due: ")
-    print(coin)
-    
+while user_coins > 0: #while loop until amount due is greater than 0
+   print("amount due: ", user_coins) #print the amount due
+   insert_coin = int(input("insert coin: ")) #ask user to insert coin
+   if insert_coin in [25, 10, 5]:#check if the inserted coins are 25, 10 or 5 cents
+      user_coins -= insert_coin #subtract the amount entered by user from the variable user_coins, which was 50
+      
+change_owed = abs(user_coins) #abs returns the absolute value of the given number, in this case user_coins variable
+print("changed owed: ", change_owed) #print the changed owed.
    
-   
-
-user_coins = 50 #range 50 to 1
-print("amount due: 50")
-
-
-for coin in range(1, n):
-    insert_coin = int(input("insert coin: "))
- #   new_prices = [insert_coin-5 for coin in user_coins]
-    total -= int(input("insert coin: "))
-    print(str(total)
-    
    
