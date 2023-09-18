@@ -14,9 +14,9 @@ def main():
 
 #convert given time to float
 def convert(time):
-    hours, minutes = time.split(":") #split will separate the time given by user by the : hours will be at the right and minutes at the left
-    new_minutes = float(minutes) / 60 #here we take the minutes as float and divide then by 60, 1 hour= to 60 minutes.
-    return float(hours) + new_minutes #return the float value of hours plus the converted minutes (new_minutes)
+    hours, minutes = time.split(":")     #split will separate the time given by user by the : hours will be at the right and minutes at the left
+    new_minutes = float(minutes) / 60    #here we take the minutes as float and divide then by 60, 1 hour= to 60 minutes.
+    return float(hours) + new_minutes    #return the float value of hours plus the converted minutes (new_minutes)
 
 
 if __name__ == "__main__":
