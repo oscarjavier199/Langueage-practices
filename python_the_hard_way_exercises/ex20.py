@@ -7,13 +7,13 @@ script, input_file = argv
 
 #defining a function with one argument(f) 
 """This function will print the whole file """
-def print_all(f):
+def print_all(f): #(f) represent the file
     print(f.read()) #The read() method returns the specified number of bytes from the file. Default is -1 which means the whole file.
     
 
 #defining another function with one argument(f)
 """This function will change the position back to the beginning of the file"""
-def rewind(f):
+def rewind(f):#(f) represent the file
     f.seek(0) #seek() function is used to change the position of 
     #the File Handle to a given specific position. File handle is like a cursor,
     #which defines from where the data has to be read or written in the file. 
@@ -21,7 +21,7 @@ def rewind(f):
 
 #function with two arguments, 
 """This function will print 3 lines"""
-def print_a_line(line_count, f):
+def print_a_line(line_count, f):#(f) represent the file and line_count will print the number of the line
     print(line_count, f.readline()) #f.readline() reads one entire line from the file. 
     
 
