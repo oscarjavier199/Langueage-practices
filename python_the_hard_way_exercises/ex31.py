@@ -68,7 +68,7 @@ But now you're gone.. if you get what that means, it means you're de4d""")
 #is user chooses door 3:
 elif door == "3":
     print("""Congrats!
-now Pinhead and Freddy Krueger will hunt you..
+now Pinhead and Freddy Kruger will hunt you..
 sleep or awake, won't matter...
 say your last words or pray if you want.""")
 
