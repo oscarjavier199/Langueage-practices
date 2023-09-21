@@ -19,16 +19,13 @@ if door == "1":
 #if statement inside if statement -  user inputs 1:
     if bear == "1":
         print("The bear eats your face off. Good job!")
-
 #if user inputs 2
     elif bear == "2":
         print("The bear eats your legs off, Good Job!")
-
 #if user inputs 3:
     elif bear == "3":
         print("""What were you thinking?
 a bear is way faster than a human!""")
-
 #if user inputs any other input:
     else:
         print(f"Well, doing {bear} is probably better")

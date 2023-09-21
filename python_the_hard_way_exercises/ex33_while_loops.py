@@ -2,7 +2,7 @@
 
 #! creating function 
 def while_function():
-    i = 5 #sets value of i to 0
+    i = 5 #sets value of i to 5
     numbers = []  #empty list to store results
 
     while i < 16: #while loop, will iterate through i until its value is less than a #
