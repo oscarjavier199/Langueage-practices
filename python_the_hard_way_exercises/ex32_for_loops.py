@@ -1,13 +1,13 @@
-#here we define 3 lists
+#todo here we define 3 lists
 the_count = [1, 2, 3, 4, 5]
 fruits = ["apple", "orange", "pear", "apricot"]
 change = [1, "pennies", 2, "dimes", 3, "quarters"]
 
-#this for loop goes through the (the_count list)
+#todo / this for loop goes through the (the_count list)
 for number in the_count:
     print(f"This is count {number}")
 
-#another for loop that goes through the elements in the "fruits" list
+#todo / another for loop that goes through the elements in the "fruits" list
 for fruit in fruits:
     print(f"This is a fruit: {fruit}")
 
