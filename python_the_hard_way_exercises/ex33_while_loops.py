@@ -1,6 +1,6 @@
 #program will loop through given numbers until the condition is false:
 
-#creating function 
+#! creating function 
 def while_function():
     i = 5 #sets value of i to 0
     numbers = []  #empty list to store results
