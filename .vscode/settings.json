@@ -1,7 +1,10 @@
 {
     "python.formatting.provider": "black",
     "cSpell.ignoreWords": [
-        "Hermione"
+        "Gettin",
+        "Hermione",
+        "bday",
+        "dani"
     ],
     "cSpell.words": [
         "Gryffindor",
