@@ -59,7 +59,7 @@ video_game_1.character = "Ethan Winters"
 video_game_1.release = "2021"
 video_game_1.publisher = "Capcom"
 
-##class attributes for 2st class:
+##class attributes for 2nd class:
 video_game_2 = Game_2()
 video_game_2.game = "Assassin's Creed Valhalla"
 video_game_2.adventure = "an adventure game"
