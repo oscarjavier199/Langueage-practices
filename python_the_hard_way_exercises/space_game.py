@@ -1,4 +1,4 @@
-
+'''
 class Robot():
     def introduce_self(self): #we add self to every method we want to add to the class
         print("I'm a Robot and my name is " + self.name, "my color is " + self.color, "and my weight is:", + self.weight, "lbs")
@@ -70,7 +70,7 @@ video_game_2.published = "Ubisoft"
 video_game_1.video_games()
 video_game_2.video_games_2()
 
-
+'''
 #same previous exercise but using constructors:
 
 print("." * 30 )
@@ -84,9 +84,12 @@ class MyGame():
         self.publisher = publisher
         
     def new_game(self):
-        print("My favourite video game is called " + self.name, "it is a " + self.genre, "kinda game, the main character is " + self.character,
-              "it was released on " + self.date, "by " + self.publisher) 
+        print("My favourite video game is called " + self.name, "it is a " + self.genre, "kinda game, the main character is " + self.character, "it was released on " + self.date, "by " + self.publisher) 
         
 
 game_1 = MyGame("Resident evil 4 remake", "Survival Horror", "Leon S. Keneddy", "2023", "Capcom")
 game_2 = MyGame("Bloodborne", "Horror maybe?", "'The Hunter'", "2015", "Sony")
+
+game_1.new_game()
+game_2.new_game()
+
