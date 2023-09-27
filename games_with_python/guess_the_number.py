@@ -2,7 +2,7 @@
 
 #imports random module
 import random
-
+'''
 #variable set = 0
 guessesTaken = 0
 
@@ -35,3 +35,28 @@ if guess == number:
 else:
     number = str(number)
     print(f'Nope, the number I was thinking of was {number}.')
+'''
+
+guesses = 0
+
+print("Hi, whats's your name?")
+myName = input()
+print(f"Nice to meet you {myName} let's play a game!")
+number = random.randint(1, 100)
+print('What number am I thinking of?')
+
+for guesses in range(15):
+    guess = input()
+    guess =int(guess)
+    
+    if guess < number:
+        print('Number is too low')
+    elif guess > number:
+        print('Number is too high')
+    else:
+        break
+    
+if guess == number:
+    print('You have it right, you won!')
+else:
+    print(f'sorry the number I was thinking of is: {number}')
