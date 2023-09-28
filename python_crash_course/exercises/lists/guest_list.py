@@ -42,6 +42,8 @@ print(f'-{removed_guest_4.title()} The date of the dinner was changer for next w
 print(f'\n-{guest_list[0].title()}, nothing to worry about you are still invited to the dinner tomorrow!')
 print(f'-See you tomorrow night {guest_list[1].title()}, the dinner is still up')
 
-del guest_list[0]
-guest_list.remove('Rick Sanchez')
-print(guest_list)
+#del guest_list[0]
+#guest_list.remove('Rick Sanchez')
+#print(guest_list)
+
+print('The current number of guests is:', len(guest_list))
