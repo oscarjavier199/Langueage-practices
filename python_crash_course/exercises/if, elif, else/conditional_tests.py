@@ -26,7 +26,7 @@ print("is laptop == 'asus'? I predict True")
 print(laptop == 'Asus'.lower())
 
 country = 'norway'
-print("is country == 'oslo'? I predict True")
+print("is country == 'Norway'? I predict True")
 print(country == 'Norway'.lower())
 
 city = 'munich'
@@ -71,13 +71,13 @@ print(number_4 < 585858)
 
 age_1 = 55
 age_2 = 60
-print("is age_1 and age_2 <= 100? I predict False")
+print("is age_1 and age_2 >= 100? I predict False")
 print(age_1 and age_2 >= 100)
 
 age_3 = 10
 age_4 = 15
-print("is age_3 <= 15 or age_4 >= 2? I predict True")
-print(age_3 <= 15 or age_4 >= 2)
+print("is age_3 <= 15 or age_4 >= 20? I predict True")
+print(age_3 <= 15 or age_4 >= 20)
 
 user_names = ['oscar', 'charlie', 'elena', 'damon', 'dr.house']
 print("is 'dr. house in the list user_names? I predict True")
