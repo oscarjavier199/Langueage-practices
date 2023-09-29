@@ -9,7 +9,8 @@ print(f'Travel list: {cities}\n')
 
 cant_visit = cities.pop()
 cant_visit_2 = cities.pop(1)
-print(f'''sorry, two cities are not available due to weather conditions: {cant_visit} and {cant_visit_2} are no longer available\n''')
+print(f'''sorry, two cities are not available due to weather conditions: 
+{cant_visit} and {cant_visit_2} are no longer available\n''')
 
 del cities[5]
 print(f'I changed my mind I only want to visit the following cities: {cities}\n')

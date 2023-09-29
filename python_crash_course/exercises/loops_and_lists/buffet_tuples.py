@@ -9,5 +9,3 @@ for food in foods: print(food)
 foods = ('lasagna', 'beans', 'salad', 'steak', 'chicken breast')
 print ('\nnew menu:')
 for food in foods: print(food)
-
-

@@ -1,3 +1,5 @@
+##copying items from one list to another
+
 my_foods = ['pizza', 'hamburger', 'cereal']
 friend_foods = my_foods[:]
 
