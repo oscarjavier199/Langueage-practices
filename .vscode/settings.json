@@ -1,5 +1,5 @@
 {
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "cSpell.ignoreWords": [
         "Gettin",
         "Hermione",
@@ -9,6 +9,7 @@
         "hoegh",
         "kacavas",
         "sicario",
+        "superm",
         "tommeraas"
     ],
     "cSpell.words": [
@@ -20,5 +21,8 @@
         "patronus",
         "Slytherin",
         "stip"
-    ]
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    }
 }
