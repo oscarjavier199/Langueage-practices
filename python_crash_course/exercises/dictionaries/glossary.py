@@ -6,16 +6,12 @@ glossary = {
     'lists': 'stores multiple items in a single variable',
     'int': 'integer number (1)',
     'float': 'floating number (1.0)',
+    'C': 'general-purpose programming language',
+    'key-value': 'database types',
+    'IDLE': 'integrated development environment for Python',
+    'SQL': 'Structured Query Language',
+    'Django': 'Python-based web framework',
 }
 
-python = glossary['python']
-dictionary = glossary['dictionary']
-list = glossary['lists']
-int = glossary['int']
-float = glossary['float']
-
-print(f"Python:\n{python}\n")
-print(f"Dictionary:\n{dictionary}\n")
-print(f"List:\n{list}\n")
-print(f"Int:\n{int}\n")
-print(f"Float:\n{float}")
+for term, meaning in glossary.items():
+    print(f"{term}:\n{meaning}\n")

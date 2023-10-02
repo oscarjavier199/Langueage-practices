@@ -14,7 +14,10 @@ print(f"Edward's favorite language is {languages}")
 languages_2 = favorite_language['oscar'].title()
 print(f"oscar's favorite language is {languages_2}")
 '''
+friends = ['mike', 'edward']
 
 #we can replace the lines 11 through 15 with a for loop:
 for name, language in favorite_language.items():
-    print(f"\n{name.title()}\'s favorite language is: {language.title()}")
+    print(f"Hi {name}")
+    if name in friends:
+        print(f"{name.title()}, I see you love {language}")
