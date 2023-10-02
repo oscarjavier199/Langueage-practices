@@ -1,15 +1,12 @@
 #program will access the values of some keys
 
 favorite_numbers = {
-    'charlie': 3, 
-    'michael': 55,
-    'yolanda': 777,
-    'rick': 1, 
-    'walter': 4,
+    'charlie': [2, 3, 4, 5],
+    'michael': [55, 9, 13],
+    'yolanda': [777, 6, 3], 
+    'rick': [1, 2, 3, 14], 
+    'walter': [3, 14, 16, 25],
 }
 
-print(f"Charlie's favorite number is: {favorite_numbers['charlie']} 🙃")
-print(f"michael's favorite number is: {favorite_numbers['michael']} 🤪")
-print(f"Yolanda's favorite number is {favorite_numbers['yolanda']} 🤔")
-print(f"rick's favorite number is: {favorite_numbers['rick']} 🤐")
-print(f"Walter's favorite number is {favorite_numbers['walter']} 😶")
+for person, number in favorite_numbers.items():
+    print(f"\n\t{person}'s favorite numbers are: {number} 🙃")

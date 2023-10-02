@@ -8,12 +8,32 @@ person = {
     'city': 'munich',
 }
 
+person_1 = {
+    'first_name': 'Oscar',
+    'last_name': 'perez',
+    'age': 23,
+    'city': 'Bogota',
+}
+
+person_2 = {
+    'first_name': 'charlie',
+    'last_name': 'sheen',
+    'age': 50,
+    'city': 'New york',
+}
+
 first_name = person['first_name']
 last_name = person['last_name']
 age = person['age']
 city = person ['city']
 
-print(f"This person is called {first_name}")
-print(f'{first_name}\'s last name is {last_name.title()}')
-print(f'he is {age} years old')
-print(f"And He is from {city.title()}")
+people = [person, person_1, person_2]
+
+for human in people:
+    if human == person:
+        print('My good friend!')
+    if human == person_1:
+        print(f"I think I know you really good!")
+    if human == person_2:
+        print(f"Don't think I remember you that well to be honest")
+    print(f"{human}\n")
