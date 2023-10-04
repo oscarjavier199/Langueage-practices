@@ -487,6 +487,7 @@ for task in completed:
 '''
 
 #while loops and dictionaries:
+'''
 video_games = {}
 
 game_over = True
@@ -512,4 +513,21 @@ while game_over:
 print("\n\t\t--- POLL RESULTS --- ")
 for name_k, game_v in video_games.items():
     print(f"\n\t{name_k.title()}, likes to play {game_v.title()} on {console.title()}")
+'''
     
+#continue statement 
+
+while True:
+    name = input("\nwho are you? >>> ")
+    if name != "oscar".lower():
+        print("\n\t-- Sorry, don't know you -- try again --")
+        continue
+    elif name == 'oscar'.lower():
+        password = input("\npassword please: >>> (it's a superhero) >>> ")
+        print(password)
+        if password == 'Batman'.lower():
+            print(f"\n\tAccess Granted, Welcome Back Master {name.title()}")
+        break
+            
+
+
