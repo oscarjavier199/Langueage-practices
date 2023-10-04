@@ -18,7 +18,6 @@ print("\n\tYour pizza will be ready in 15 minutes!\n")
 prompt = "Please enter your age: "
 prompt += ">>> "
 
-user_age = 1
 
 while user_age == 1:
     user_age = int(input(prompt))
