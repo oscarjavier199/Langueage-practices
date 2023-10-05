@@ -25,7 +25,7 @@ while_function() #calling main function
 
 #same exercise but an argument is passed to the function:
 '''
-#same exercise but an argument is passed to the function:
+#same exercise but a parameter is passed to the function:
 def while_function(digit):
 
     numbers = []  #empty list to store results
