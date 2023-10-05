@@ -528,6 +528,3 @@ while True:
         if password == 'Batman'.lower():
             print(f"\n\tAccess Granted, Welcome Back Master {name.title()}")
         break
-            
-
-
