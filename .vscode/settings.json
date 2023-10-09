@@ -15,12 +15,14 @@
     "cSpell.words": [
         "aquaman",
         "Asus",
+        "Galadriel",
         "Gryffindor",
         "HOMELANDER",
         "Kratos",
         "patronus",
         "Slytherin",
-        "stip"
+        "stip",
+        "Tanic"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
