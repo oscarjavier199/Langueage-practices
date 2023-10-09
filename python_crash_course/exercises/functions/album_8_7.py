@@ -1,7 +1,10 @@
 #function takes input from user using a while loop and then prints a dict with
-#the infoas key-value pairs
+#the info as key-value pairs
 
 def album_1(singer_1, album_1, songs=None):
+    
+    '''creates dictionary with 2 key-value pairs and and optional 3rd one'''
+    
     album_info_1 = {'singer': singer_1, 'album': album_1}
 
     if songs:

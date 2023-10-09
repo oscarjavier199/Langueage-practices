@@ -3,6 +3,9 @@
 # items as the function call provides
 
 def making_sandwiches(*items):
+    
+    '''creates a tuple and iterates through it'''
+    
     print("\nAdding the following items to your sandwich: \n")
     
     for item in items:

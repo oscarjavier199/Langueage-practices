@@ -1,7 +1,7 @@
-#program defines a function that taes two parameters and then calls the function:
+#program defines a function that takes two parameters and then calls the function:
 
 def make_shirt(size, message):
-    print("\n\tThank you for ordereing from our site! ❤️")
+    print("\n\tThank you for ordering from our site! ❤️")
     print(f"\n\tYour T-shirt will be size: {size.title()}")
     print(f"\n\tThe message printed on it will be: \n\t'{message.title()}'\n")
     
