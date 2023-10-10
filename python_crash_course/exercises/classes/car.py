@@ -30,15 +30,27 @@ class ElectricCar(Car):
         
         '''Initialize attributes of the parent class'''
         super().__init__(brand, model, year)
-        self.battery_size = 40
+        self.battery = Battery()
+
+class Battery:
+    def __init__(self, battery_size=10):
+        self.battery_size = battery_size
         
-    def battery(self):
-        print(f"This car has a battery of {self.battery_size}.kWh\n")
+    def describe_battery(self):
+        print(f"This car has a battery of {self.battery_size}.kWh")
+        
+    def get_range(self):
+        if self.battery_size <= 50:
+            range = 150
+        else:
+            range = 225
+        print(f"This car can go about {range} miles with current charge\n")
 
 
 electric_car_1 = ElectricCar('Tesla', 'model x', 2023)
 print(electric_car_1.car_1())
-electric_car_1.battery()
+electric_car_1.battery.describe_battery()
+electric_car_1.battery.get_range()
     
         
 my_used_car = Car('subaru', 'outback', 2019)
