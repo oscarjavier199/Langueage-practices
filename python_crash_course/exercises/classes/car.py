@@ -23,6 +23,24 @@ class Car:
         '''add the given amount to the odometer reading'''
         self.odometer_reading += kilometers
         
+class ElectricCar(Car):
+    '''child class for electric car'''
+    
+    def __init__(self, brand, model, year):
+        
+        '''Initialize attributes of the parent class'''
+        super().__init__(brand, model, year)
+        self.battery_size = 40
+        
+    def battery(self):
+        print(f"This car has a battery of {self.battery_size}.kWh\n")
+
+
+electric_car_1 = ElectricCar('Tesla', 'model x', 2023)
+print(electric_car_1.car_1())
+electric_car_1.battery()
+    
+        
 my_used_car = Car('subaru', 'outback', 2019)
 print(my_used_car.car_1())
 
