@@ -22,7 +22,8 @@
         "patronus",
         "Slytherin",
         "stip",
-        "Tanic"
+        "Tanic",
+        "tweety"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
