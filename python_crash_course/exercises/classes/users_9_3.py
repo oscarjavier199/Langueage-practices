@@ -22,7 +22,28 @@ class User():
     def reset_logging_attempts(self):
             self.logging_attempts = 0 
             print(f"New attempts: {self.logging_attempts}")
+            
+class Admin(User):
+    def __init__(self, user_name, logged_in, device):
+        super().__init__(user_name, logged_in, device)
+        self.privileges = Privileges()
         
+            
+class Privileges:
+    def __init__(self):
+        self.privileges = [
+            "can add post", "can delete post", "can ban user", 
+            "can delete accounts", "can suspend accounts"
+        ]
+    
+    def show_privileges(self):  
+        print(f"\nAdmin privileges:")
+        for privilege in self.privileges:
+            print(f"-{privilege}")
+        
+
+Admin_1 = Admin('Admin', 'Hidden', 'Hidden')
+Admin_1.privileges.show_privileges()
 
 user_1 = User("jack_sparrow1", "01/02/2000", "nokia")
 user_1.describe_user()

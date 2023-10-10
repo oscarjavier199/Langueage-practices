@@ -45,12 +45,22 @@ class Battery:
         else:
             range = 225
         print(f"This car can go about {range} miles with current charge\n")
-
-
+        
+    def upgrade_battery(self):
+        if self.battery_size <= 65:
+            self.battery_size = 65
+        
+        
 electric_car_1 = ElectricCar('Tesla', 'model x', 2023)
 print(electric_car_1.car_1())
 electric_car_1.battery.describe_battery()
 electric_car_1.battery.get_range()
+electric_car_1.battery.upgrade_battery()
+electric_car_1.battery.describe_battery()
+electric_car_1.battery.get_range()
+
+
+
     
         
 my_used_car = Car('subaru', 'outback', 2019)
