@@ -1,3 +1,5 @@
+'''a class that can be used to represent a car'''
+
 class Car:
     '''a class that represent a car'''
     
@@ -50,7 +52,7 @@ class Battery:
         if self.battery_size <= 65:
             self.battery_size = 65
         
-        
+'''      
 electric_car_1 = ElectricCar('Tesla', 'model x', 2023)
 print(electric_car_1.car_1())
 electric_car_1.battery.describe_battery()
@@ -59,10 +61,6 @@ electric_car_1.battery.upgrade_battery()
 electric_car_1.battery.describe_battery()
 electric_car_1.battery.get_range()
 
-
-
-    
-        
 my_used_car = Car('subaru', 'outback', 2019)
 print(my_used_car.car_1())
 
@@ -71,3 +69,4 @@ my_used_car.read_odometer()
 
 my_used_car.increment_odometer(500)
 my_used_car.read_odometer()
+'''
