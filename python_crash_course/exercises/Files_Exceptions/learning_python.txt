@@ -1,0 +1,8 @@
+In Python you can create lists with any information you want
+In Python you can create dictionaries as key:value pairs
+In Python you can write Loops to iterate through lists or dictionaries
+In Python you can define functions that will execute a block of code
+In Python you can write classes to represent real-world objects
+In Python you can inherit attributes and methods from one class to another
+In Python you can use composition to described in more detail objects
+In Python you can read text files and modify them
