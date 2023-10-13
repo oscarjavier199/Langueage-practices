@@ -10,7 +10,7 @@ def reading_files(path):
         try:
             content = path.read_text(encoding='utf-8')
         except FileNotFoundError:
-            print(f"sorry, {path} does not exist in current directory")
+            pass
         else:
             print(f"Content of the file {path}: \n{content}\n")
     
