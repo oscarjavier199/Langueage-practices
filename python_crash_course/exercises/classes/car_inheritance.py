@@ -25,7 +25,7 @@ class ElectricCar(Car):
         print(car_info)
 
 class Sport(Car):
-    '''A class to represent an sports car'''
+    '''A class to represent a sports car'''
     def __init__(
         self, brand, model, color, engine, power, passengers, doors, top_speed
     ):
