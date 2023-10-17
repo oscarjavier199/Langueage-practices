@@ -13,12 +13,14 @@
         "tommeraas"
     ],
     "cSpell.words": [
+        "Albus",
         "aquaman",
         "Aragorn",
         "Asus",
         "bookinfo",
         "Boromir",
         "Congratufuckinglations",
+        "Dumbledor",
         "Fyodor",
         "Galadriel",
         "Gimli",
@@ -36,7 +38,8 @@
         "Tanic",
         "tlotr",
         "Tûranor",
-        "tweety"
+        "tweety",
+        "wulfric"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
