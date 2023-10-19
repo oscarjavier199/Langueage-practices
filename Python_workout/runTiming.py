@@ -1,6 +1,6 @@
 def run_timing():
     
-    '''calculates average running time'''
+    '''calculates average running time from user input'''
     
     welcome = f"\n\tEnter your running time in minutes and I'll give you the"
     welcome += f" average \n\t(Enter 0 to quit)\n"
