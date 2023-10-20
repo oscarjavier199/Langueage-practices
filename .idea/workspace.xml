@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd11ad5e-9c61-48a7-9044-fd645f327eb7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Alien-Game-Project/classPractice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/language_practices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/language_practices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Alien-Game-Project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
