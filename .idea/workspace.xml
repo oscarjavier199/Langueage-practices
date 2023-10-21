@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd11ad5e-9c61-48a7-9044-fd645f327eb7" name="Changes" comment="pycharm settings">
-      <change beforePath="$PROJECT_DIR$/../Alien-Game-Project/TryItYourselfExercises/mario.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Alien-Game-Project/TryItYourselfExercises/mario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Alien-Game-Project/TryItYourselfExercises/settings_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Alien-Game-Project/TryItYourselfExercises/tryYourself.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Alien-Game-Project/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Alien-Game-Project/alien_invasion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_workout/hexnumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Alien-Game-Project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.alien_invasion">
+  <component name="RunManager">
     <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697763236482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pycharm settings">
+      <option name="closed" value="true" />
+      <created>1697927124516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697927124516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
