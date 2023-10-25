@@ -25,3 +25,16 @@ print(f"Squared numbers: {squares}\n")
 # single_digits taken to the third power.
 cubes = [num ** 3 for num in single_digits]
 print(f"Third power: {cubes}")
+
+numbers = [2, 4, 6, 8]
+for number in numbers:
+  print("hello!")
+
+for i in range(3):
+  print(5)
+
+numbers = [1, 1, 2, 3]
+for number in numbers:
+  if number % 2 == 0:
+    break
+  print(number)
