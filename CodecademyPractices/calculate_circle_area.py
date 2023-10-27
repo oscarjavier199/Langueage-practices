@@ -1,10 +1,13 @@
+# program calculates circle area
+
 class Circle:
-    """Class to claculate the area of a circle"""
+    """Class to calculate the area of a circle"""
 
     pi = 3.14
 
     def area(self, radius):
         return self.pi * radius ** 2
+
 
 circle = Circle()
 

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd11ad5e-9c61-48a7-9044-fd645f327eb7" name="Changes" comment="pycharm settings">
-      <change afterPath="$PROJECT_DIR$/CodecademyPractices/remove_Aces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classPractice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_practices.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodecademyPractices/files_practices.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd11ad5e-9c61-48a7-9044-fd645f327eb7" name="Changes" comment="class practices codecademy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\57304\Documents\GitHub\PytthonPractices\CodecademyPractices" />
       <recent name="C:\Users\57304\Documents\GitHub\Alien-Game-Project\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.cal">
     <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +191,29 @@
       <option name="project" value="LOCAL" />
       <updated>1698189826605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dict practices">
+      <option name="closed" value="true" />
+      <created>1698365126498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698365126498</updated>
+    </task>
+    <task id="LOCAL-00007" summary="class practices codecademy">
+      <option name="closed" value="true" />
+      <created>1698414746702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698414746702</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pycharm settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="pycharm settings" />
+    <MESSAGE value="dict practices" />
+    <MESSAGE value="class practices codecademy" />
+    <option name="LAST_COMMIT_MESSAGE" value="class practices codecademy" />
   </component>
 </project>
