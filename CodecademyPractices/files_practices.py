@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 def write_to_json(path):
-    path = Path('my_books.json')
+    path = Path('../my_books.json')
 
     book_line = """
 In respect of her art generally, Mr. Goldwin Smith has truly observed
@@ -19,7 +19,7 @@ painter."""
 
 def read_json_file(path):
     
-    path = Path('my_books.json')
+    path = Path('../my_books.json')
     try:
         content = path.read_text()
         book = json.loads(content)
