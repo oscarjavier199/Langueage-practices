@@ -9,7 +9,7 @@ In respect of her art generally, Mr. Goldwin Smith has truly observed
 that “metaphor has been exhausted in depicting the perfection of it,
 combined with the narrowness of her field;” and he has justly added that
 we need not go beyond her own comparison to the art of a miniature
-painter."""
+painter"""
 
 
     content = json.dumps(book_line)
