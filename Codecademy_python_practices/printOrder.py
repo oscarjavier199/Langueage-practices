@@ -1,5 +1,5 @@
 # Program displays tables from a restaurant,
-# names and orders.
+# names and orders, program used to practice functions in python
 
 # nested dict for tables and person who orders
 tables = {
