@@ -1,3 +1,6 @@
+# abstraction allows us to have a cleaner code and
+# define methods more directly for each child class
+
 from abc import ABC, abstractmethod
 
 

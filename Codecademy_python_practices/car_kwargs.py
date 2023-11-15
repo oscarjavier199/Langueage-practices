@@ -1,4 +1,4 @@
-# **kwarg practice
+# **kwarg practice (keyword arguments, create a dict)
 
 def car_info(brand, model, **additional_info):
     """function takes **kwargs to print information about a car"""

@@ -1,4 +1,4 @@
-# program calculates circle area, codecademy practice
+# program calculates circle area, codecademy practice of classes
 
 class Circle:
     """Class to calculate the area of a circle"""
